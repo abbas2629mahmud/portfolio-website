@@ -6,10 +6,13 @@ body{
 h1{
     font-size: 60px;
 }
+h2{
+    font-size: 48px;
+}
 .orange-color span{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -43,4 +46,7 @@ section{
 }
 .dream-big-right{
     padding-right: 100px;
+}
+.experience-area h1{
+    margin-left: 100px;
 }
