@@ -5,9 +5,13 @@ body{
 
 h1{
     font-size: 60px;
+    line-height: 1.5;
+    margin: 0 0 20px;
 }
 h2{
     font-size: 48px;
+    line-height: 1.5;
+    margin: 0 0 20px;
 }
 .orange-color span{
     color: orange;
@@ -19,6 +23,7 @@ h2{
 .hero-area{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
+    padding-top: 50px;
 }
 .half-width{
     width: 100%;
@@ -26,7 +31,7 @@ h2{
 }
 .half-width img{
     width: 80%;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 .link-btn{
     color: #fff;
@@ -47,6 +52,31 @@ h2{
 .dream-big-right{
     padding-right: 100px;
 }
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 .experience-area h1{
     margin-left: 100px;
+}
+.experience-item{
+    width: 36%;
+    margin: 0 7%;
+    padding: 30px;
+    box-shadow: 0 10px 50px #222;
+    border-left: 7px solid blue;
+    margin-top: 30px;
+}
+.experience-item h4{
+    text-transform: uppercase;
+    color: orange;
+    font-size: 20px;
+}
+.flexible-container .experience-item:first-child{
+    border-left: 7px solid tomato;
+}
+footer{
+    text-align: center;
+    padding-bottom: 50px;
 }
